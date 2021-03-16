@@ -1,4 +1,4 @@
-A DNS resolver with caching and cname support.
+A DNS resolver for intuitive use on the command line, with caching and cname support.
 
 Run with the following: 
 DNSLookupService \<rootDNS\> {-p1}
