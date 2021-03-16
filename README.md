@@ -1,4 +1,4 @@
-A simplified DNS resolver with caching and cname support.
+A DNS resolver with caching and cname support.
 
 Run with the following: 
 DNSLookupService \<rootDNS\> {-p1}
@@ -18,3 +18,5 @@ Shell commands:
     prints the resulting IP address. The result may be obtained from a local cache, 
 	in which case no tracing is printed.
   - dump: Prints all currently cached host names and records.
+
+Note on errors: in addition to normal errors, a -1 result will occur if a DNS response is truncated. 
